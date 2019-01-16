@@ -1,0 +1,15 @@
+# Python virutal environment
+.venv
+
+# Byte-compiled
+*.py[cod]
+__pycache__
+
+# Distribute
+db.sqlite3
+
+# Local settings
+crems/local_settings.py
+
+# migrations
+**/migrations/0*.py
