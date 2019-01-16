@@ -1,0 +1,815 @@
+[
+  {
+    "model": "workflow.workflow",
+    "pk": 1,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T02:51:28Z",
+      "updated_at": "2019-01-09T02:51:28Z",
+      "deleted_at": null,
+      "name": "\u8bbe\u5907\u4e0a\u67b6",
+      "description": "\u8bbe\u5907\u4e0a\u67b6\u7533\u8bf7",
+      "flowchart": "",
+      "creator": 1
+    }
+  },
+  {
+    "model": "workflow.workflow",
+    "pk": 2,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T02:51:52Z",
+      "updated_at": "2019-01-09T02:51:52Z",
+      "deleted_at": null,
+      "name": "\u8bbe\u5907\u4e0b\u67b6",
+      "description": "\u8bbe\u5907\u4e0b\u67b6\u7533\u8bf7",
+      "flowchart": "",
+      "creator": 1
+    }
+  },
+  {
+    "model": "workflow.workflow",
+    "pk": 3,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-15T05:43:48.195Z",
+      "updated_at": "2019-01-15T05:43:48.195Z",
+      "deleted_at": null,
+      "name": "\u8bbe\u5907\u53d8\u66f4",
+      "description": "\u8bbe\u5907\u53d8\u66f4\u7533\u8bf7",
+      "flowchart": "",
+      "creator": 1
+    }
+  },
+
+
+
+
+
+  {
+    "model": "workflow.state",
+    "pk": 101,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T03:24:03Z",
+      "updated_at": "2019-01-09T03:24:03Z",
+      "deleted_at": null,
+      "name": "\u63d0\u4ea4\u7533\u8bf7",
+      "description": "\u63d0\u4ea4\u7533\u8bf7",
+      "workflow": 1,
+      "order_id": "1",
+      "state_type": "2",
+      "participant_type": "1",
+      "participant": null
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 102,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T03:24:57Z",
+      "updated_at": "2019-01-09T03:24:57Z",
+      "deleted_at": null,
+      "name": "\u534e\u901a\u5ba1\u6279\u4e2d",
+      "description": "\u534e\u901a\u5ba1\u6279\u4e2d",
+      "workflow": 1,
+      "order_id": "2",
+      "state_type": "1",
+      "participant_type": "1",
+      "participant": 1
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 103,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T03:29:43Z",
+      "updated_at": "2019-01-09T03:29:43Z",
+      "deleted_at": null,
+      "name": "\u603b\u529e\u5ba1\u6279\u4e2d",
+      "description": "\u603b\u529e\u5ba1\u6279\u4e2d",
+      "workflow": 1,
+      "order_id": "3",
+      "state_type": "1",
+      "participant_type": "1",
+      "participant": 3
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 104,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:21:59Z",
+      "updated_at": "2019-01-09T04:21:59Z",
+      "deleted_at": null,
+      "name": "\u673a\u623f\u786e\u8ba4\u4e2d",
+      "description": "\u673a\u623f\u786e\u8ba4\u4e2d",
+      "workflow": 1,
+      "order_id": "4",
+      "state_type": "1",
+      "participant_type": "1",
+      "participant": 4
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 105,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T03:30:07Z",
+      "updated_at": "2019-01-09T04:21:29Z",
+      "deleted_at": null,
+      "name": "\u5b8c\u6210",
+      "description": "\u4e0a\u67b6\u5b8c\u6210",
+      "workflow": 1,
+      "order_id": "5",
+      "state_type": "3",
+      "participant_type": "1",
+      "participant": null
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 201,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:18:41Z",
+      "updated_at": "2019-01-09T04:18:58Z",
+      "deleted_at": null,
+      "name": "\u63d0\u4ea4\u7533\u8bf7",
+      "description": "\u63d0\u4ea4\u7533\u8bf7",
+      "workflow": 2,
+      "order_id": "1",
+      "state_type": "2",
+      "participant_type": "1",
+      "participant": null
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 202,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:19:44Z",
+      "updated_at": "2019-01-09T04:19:44Z",
+      "deleted_at": null,
+      "name": "\u534e\u901a\u5ba1\u6279\u4e2d",
+      "description": "\u534e\u901a\u5ba1\u6279\u4e2d",
+      "workflow": 2,
+      "order_id": "2",
+      "state_type": "1",
+      "participant_type": "1",
+      "participant": 1
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 203,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:20:06Z",
+      "updated_at": "2019-01-09T04:20:06Z",
+      "deleted_at": null,
+      "name": "\u603b\u529e\u5ba1\u6279\u4e2d",
+      "description": "\u603b\u529e\u5ba1\u6279\u4e2d",
+      "workflow": 2,
+      "order_id": "3",
+      "state_type": "1",
+      "participant_type": "1",
+      "participant": 3
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 204,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:20:30Z",
+      "updated_at": "2019-01-09T04:20:30Z",
+      "deleted_at": null,
+      "name": "\u673a\u623f\u786e\u8ba4\u4e2d",
+      "description": "\u673a\u623f\u786e\u8ba4\u4e2d",
+      "workflow": 2,
+      "order_id": "4",
+      "state_type": "1",
+      "participant_type": "1",
+      "participant": 4
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 205,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:20:49Z",
+      "updated_at": "2019-01-09T04:20:49Z",
+      "deleted_at": null,
+      "name": "\u5b8c\u6210",
+      "description": "\u4e0b\u67b6\u5b8c\u6210",
+      "workflow": 2,
+      "order_id": "5",
+      "state_type": "3",
+      "participant_type": "1",
+      "participant": null
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 301,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:18:41Z",
+      "updated_at": "2019-01-09T04:18:58Z",
+      "deleted_at": null,
+      "name": "\u63d0\u4ea4\u7533\u8bf7",
+      "description": "\u63d0\u4ea4\u7533\u8bf7",
+      "workflow": 3,
+      "order_id": "1",
+      "state_type": "2",
+      "participant_type": "1",
+      "participant": null
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 302,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:19:44Z",
+      "updated_at": "2019-01-09T04:19:44Z",
+      "deleted_at": null,
+      "name": "\u534e\u901a\u5ba1\u6279\u4e2d",
+      "description": "\u534e\u901a\u5ba1\u6279\u4e2d",
+      "workflow": 3,
+      "order_id": "2",
+      "state_type": "1",
+      "participant_type": "1",
+      "participant": 1
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 303,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:20:06Z",
+      "updated_at": "2019-01-09T04:20:06Z",
+      "deleted_at": null,
+      "name": "\u603b\u529e\u5ba1\u6279\u4e2d",
+      "description": "\u603b\u529e\u5ba1\u6279\u4e2d",
+      "workflow": 3,
+      "order_id": "3",
+      "state_type": "1",
+      "participant_type": "1",
+      "participant": 3
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 304,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:20:30Z",
+      "updated_at": "2019-01-09T04:20:30Z",
+      "deleted_at": null,
+      "name": "\u673a\u623f\u786e\u8ba4\u4e2d",
+      "description": "\u673a\u623f\u786e\u8ba4\u4e2d",
+      "workflow": 3,
+      "order_id": "4",
+      "state_type": "1",
+      "participant_type": "1",
+      "participant": 4
+    }
+  },
+  {
+    "model": "workflow.state",
+    "pk": 305,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:20:49Z",
+      "updated_at": "2019-01-09T04:20:49Z",
+      "deleted_at": null,
+      "name": "\u5b8c\u6210",
+      "description": "\u4e0b\u67b6\u5b8c\u6210",
+      "workflow": 3,
+      "order_id": "5",
+      "state_type": "3",
+      "participant_type": "1",
+      "participant": null
+    }
+  },
+
+
+
+  {
+    "model": "workflow.transition",
+    "pk": 101,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:24:33Z",
+      "updated_at": "2019-01-09T04:24:33Z",
+      "deleted_at": null,
+      "name": "\u63d0\u4ea4",
+      "description": "\u63d0\u4ea4",
+      "transition_type": "1",
+      "workflow": 1,
+      "from_state": 101,
+      "to_state": 102
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 102,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:25:05Z",
+      "updated_at": "2019-01-09T04:25:05Z",
+      "deleted_at": null,
+      "name": "\u540c\u610f",
+      "description": "\u540c\u610f",
+      "transition_type": "1",
+      "workflow": 1,
+      "from_state": 102,
+      "to_state": 103
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 103,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:25:50Z",
+      "updated_at": "2019-01-09T04:25:50Z",
+      "deleted_at": null,
+      "name": "\u540c\u610f",
+      "description": "\u540c\u610f",
+      "transition_type": "1",
+      "workflow": 1,
+      "from_state": 103,
+      "to_state": 104
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 104,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:27:08Z",
+      "updated_at": "2019-01-09T04:27:08Z",
+      "deleted_at": null,
+      "name": "\u5b8c\u6210",
+      "description": "\u5b8c\u6210",
+      "transition_type": "1",
+      "workflow": 1,
+      "from_state": 104,
+      "to_state": 105
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 111,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:31:32Z",
+      "updated_at": "2019-01-09T04:31:32Z",
+      "deleted_at": null,
+      "name": "\u62d2\u7edd",
+      "description": "\u62d2\u7edd",
+      "transition_type": "2",
+      "workflow": 1,
+      "from_state": 102,
+      "to_state": 102
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 112,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:31:47Z",
+      "updated_at": "2019-01-09T04:31:47Z",
+      "deleted_at": null,
+      "name": "\u62d2\u7edd",
+      "description": "\u62d2\u7edd",
+      "transition_type": "2",
+      "workflow": 1,
+      "from_state": 103,
+      "to_state": 103
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 113,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:31:12Z",
+      "updated_at": "2019-01-09T04:31:12Z",
+      "deleted_at": null,
+      "name": "\u62d2\u7edd",
+      "description": "\u62d2\u7edd",
+      "transition_type": "2",
+      "workflow": 1,
+      "from_state": 104,
+      "to_state": 104
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 201,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:27:44Z",
+      "updated_at": "2019-01-09T04:27:44Z",
+      "deleted_at": null,
+      "name": "\u63d0\u4ea4",
+      "description": "\u63d0\u4ea4",
+      "transition_type": "1",
+      "workflow": 2,
+      "from_state": 201,
+      "to_state": 202
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 202,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:28:02Z",
+      "updated_at": "2019-01-09T04:28:02Z",
+      "deleted_at": null,
+      "name": "\u540c\u610f",
+      "description": "\u540c\u610f",
+      "transition_type": "1",
+      "workflow": 2,
+      "from_state": 202,
+      "to_state": 203
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 203,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:28:16Z",
+      "updated_at": "2019-01-09T04:28:42Z",
+      "deleted_at": null,
+      "name": "\u540c\u610f",
+      "description": "\u540c\u610f",
+      "transition_type": "1",
+      "workflow": 2,
+      "from_state": 203,
+      "to_state": 204
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 204,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:29:04Z",
+      "updated_at": "2019-01-09T04:29:04Z",
+      "deleted_at": null,
+      "name": "\u5b8c\u6210",
+      "description": "\u5b8c\u6210",
+      "transition_type": "1",
+      "workflow": 2,
+      "from_state": 204,
+      "to_state": 205
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 211,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:32:13Z",
+      "updated_at": "2019-01-09T04:32:13Z",
+      "deleted_at": null,
+      "name": "\u62d2\u7edd",
+      "description": "\u62d2\u7edd",
+      "transition_type": "2",
+      "workflow": 2,
+      "from_state": 202,
+      "to_state": 202
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 212,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:32:30Z",
+      "updated_at": "2019-01-09T04:32:30Z",
+      "deleted_at": null,
+      "name": "\u62d2\u7edd",
+      "description": "\u62d2\u7edd",
+      "transition_type": "2",
+      "workflow": 2,
+      "from_state": 203,
+      "to_state": 203
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 213,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:32:03Z",
+      "updated_at": "2019-01-09T04:32:03Z",
+      "deleted_at": null,
+      "name": "\u62d2\u7edd",
+      "description": "\u62d2\u7edd",
+      "transition_type": "2",
+      "workflow": 2,
+      "from_state": 204,
+      "to_state": 204
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 301,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:27:44Z",
+      "updated_at": "2019-01-09T04:27:44Z",
+      "deleted_at": null,
+      "name": "\u63d0\u4ea4",
+      "description": "\u63d0\u4ea4",
+      "transition_type": "1",
+      "workflow": 3,
+      "from_state": 301,
+      "to_state": 302
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 302,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:28:02Z",
+      "updated_at": "2019-01-09T04:28:02Z",
+      "deleted_at": null,
+      "name": "\u540c\u610f",
+      "description": "\u540c\u610f",
+      "transition_type": "1",
+      "workflow": 3,
+      "from_state": 302,
+      "to_state": 303
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 303,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:28:16Z",
+      "updated_at": "2019-01-09T04:28:42Z",
+      "deleted_at": null,
+      "name": "\u540c\u610f",
+      "description": "\u540c\u610f",
+      "transition_type": "1",
+      "workflow": 3,
+      "from_state": 303,
+      "to_state": 304
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 304,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:29:04Z",
+      "updated_at": "2019-01-09T04:29:04Z",
+      "deleted_at": null,
+      "name": "\u5b8c\u6210",
+      "description": "\u5b8c\u6210",
+      "transition_type": "1",
+      "workflow": 3,
+      "from_state": 304,
+      "to_state": 305
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 311,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:32:03Z",
+      "updated_at": "2019-01-09T04:32:03Z",
+      "deleted_at": null,
+      "name": "\u62d2\u7edd",
+      "description": "\u62d2\u7edd",
+      "transition_type": "2",
+      "workflow": 3,
+      "from_state": 302,
+      "to_state": 302
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 312,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:32:13Z",
+      "updated_at": "2019-01-09T04:32:13Z",
+      "deleted_at": null,
+      "name": "\u62d2\u7edd",
+      "description": "\u62d2\u7edd",
+      "transition_type": "2",
+      "workflow": 3,
+      "from_state": 303,
+      "to_state": 303
+    }
+  },
+  {
+    "model": "workflow.transition",
+    "pk": 313,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T04:32:30Z",
+      "updated_at": "2019-01-09T04:32:30Z",
+      "deleted_at": null,
+      "name": "\u62d2\u7edd",
+      "description": "\u62d2\u7edd",
+      "transition_type": "2",
+      "workflow": 3,
+      "from_state": 304,
+      "to_state": 304
+    }
+  },
+
+
+
+
+
+
+
+  {
+    "model": "workflow.customfield",
+    "pk": 101,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T02:57:25Z",
+      "updated_at": "2019-01-09T02:57:25Z",
+      "deleted_at": null,
+      "workflow": 1,
+      "field_name": "\u673a\u67dc\u673a\u4f4d",
+      "description": "\u673a\u67dc\u673a\u4f4d",
+      "field_key": "equip_position",
+      "field_type": "15"
+    }
+  },
+  {
+    "model": "workflow.customfield",
+    "pk": 102,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T02:58:06Z",
+      "updated_at": "2019-01-09T02:58:06Z",
+      "deleted_at": null,
+      "workflow": 1,
+      "field_name": "\u8bbe\u5907\u578b\u53f7",
+      "description": "\u8bbe\u5907\u578b\u53f7",
+      "field_key": "equip_version",
+      "field_type": "5"
+    }
+  },
+  {
+    "model": "workflow.customfield",
+    "pk": 103,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T02:58:22Z",
+      "updated_at": "2019-01-09T02:58:22Z",
+      "deleted_at": null,
+      "workflow": 1,
+      "field_name": "\u8bbe\u5907\u7c7b\u578b",
+      "description": "\u8bbe\u5907\u7c7b\u578b",
+      "field_key": "equip_type",
+      "field_type": "10"
+    }
+  },
+  {
+    "model": "workflow.customfield",
+    "pk": 104,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T02:58:45Z",
+      "updated_at": "2019-01-09T02:58:45Z",
+      "deleted_at": null,
+      "workflow": 1,
+      "field_name": "\u8bbe\u5907\u7f16\u53f7",
+      "description": "\u8bbe\u5907\u7f16\u53f7",
+      "field_key": "equip_sn",
+      "field_type": "5"
+    }
+  },
+  {
+    "model": "workflow.customfield",
+    "pk": 105,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T02:59:05Z",
+      "updated_at": "2019-01-09T02:59:05Z",
+      "deleted_at": null,
+      "workflow": 1,
+      "field_name": "\u8bbe\u5907\u7528\u9014",
+      "description": "\u8bbe\u5907\u7528\u9014",
+      "field_key": "equip_use",
+      "field_type": "5"
+    }
+  },
+  {
+    "model": "workflow.customfield",
+    "pk": 106,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T02:59:23Z",
+      "updated_at": "2019-01-09T02:59:23Z",
+      "deleted_at": null,
+      "workflow": 1,
+      "field_name": "\u4e0a\u67b6\u7533\u8bf7\u7406\u7531",
+      "description": "\u4e0a\u67b6\u7533\u8bf7\u7406\u7531",
+      "field_key": "equip_in_reason",
+      "field_type": "30"
+    }
+  },
+  {
+    "model": "workflow.customfield",
+    "pk": 201,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T03:00:34Z",
+      "updated_at": "2019-01-09T03:00:34Z",
+      "deleted_at": null,
+      "workflow": 2,
+      "field_name": "\u8bbe\u5907\u7f16\u53f7",
+      "description": "\u8bbe\u5907\u7f16\u53f7",
+      "field_key": "equip_sn",
+      "field_type": "5"
+    }
+  },
+  {
+    "model": "workflow.customfield",
+    "pk": 202,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T03:00:51Z",
+      "updated_at": "2019-01-09T03:00:51Z",
+      "deleted_at": null,
+      "workflow": 2,
+      "field_name": "\u8bbe\u5907\u4e0b\u67b6\u7406\u7531",
+      "description": "\u8bbe\u5907\u4e0b\u67b6\u7406\u7531",
+      "field_key": "equip_out_reason",
+      "field_type": "30"
+    }
+  },
+  {
+    "model": "workflow.customfield",
+    "pk": 301,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T03:00:34Z",
+      "updated_at": "2019-01-09T03:00:34Z",
+      "deleted_at": null,
+      "workflow": 3,
+      "field_name": "\u8bbe\u5907\u7f16\u53f7",
+      "description": "\u8bbe\u5907\u7f16\u53f7",
+      "field_key": "equip_sn",
+      "field_type": "5"
+    }
+  },
+  {
+    "model": "workflow.customfield",
+    "pk": 302,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T02:57:25Z",
+      "updated_at": "2019-01-09T02:57:25Z",
+      "deleted_at": null,
+      "workflow": 3,
+      "field_name": "\u76ee\u6807\u673a\u67dc\u673a\u4f4d",
+      "description": "\u76ee\u6807\u673a\u67dc\u673a\u4f4d",
+      "field_key": "equip_position",
+      "field_type": "15"
+    }
+  },
+  {
+    "model": "workflow.customfield",
+    "pk": 303,
+    "fields": {
+      "deleted": false,
+      "created_at": "2019-01-09T03:00:51Z",
+      "updated_at": "2019-01-09T03:00:51Z",
+      "deleted_at": null,
+      "workflow": 3,
+      "field_name": "\u8bbe\u5907\u53d8\u66f4\u7406\u7531",
+      "description": "\u8bbe\u5907\u53d8\u66f4\u7406\u7531",
+      "field_key": "equip_out_reason",
+      "field_type": "30"
+    }
+  }
+]
